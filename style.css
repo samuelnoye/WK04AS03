@@ -1,0 +1,27 @@
+body{
+    color: black;
+    font-size: 320px;
+    }
+    .container{
+      border: 2px solid;
+      height: 800px;
+      width: 90%;
+      background-color: aqua;
+      margin:0 auto ;
+    }
+/* media queries*/
+@media only screen and (min-width:360px){
+  .container{
+    border: 2px solid;
+    height: 400px;
+    width: 90%;
+    background-color: rgb(255, 174, 0);
+    margin:0 auto ;
+  }
+}
+
+    @media only print{
+      
+    }
+    
+     
